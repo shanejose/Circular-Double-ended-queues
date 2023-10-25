@@ -1,2 +1,6 @@
 # Circular-Double-ended-queues
-Created a Circular Double ended queue class in python
+This Python project implements a CircularDeque class using an underlying Python list.The CircularDeque is a versatile data structure that can dynamically grow and shrink as needed to efficiently manage a circular queue. It offers methods for enqueuing and dequeuing elements both at the front and back of the queue, effectively providing a double-ended queue (deque) with circular properties. The CircularDeque class maintains its capacity, size, and the positions of the front and back elements, and it can grow or shrink its capacity based on the number of elements it holds.
+
+In addition to CircularDeque, the project also includes utility functions for solving two specific problems. The `get_winning_numbers` function takes a list of numbers and a window size and returns the maximum values within sliding windows of the specified size. This function is useful for analyzing data streams, among other applications. The `get_winning_probability` function calculates the maximum possible prize money that can be won by selecting non-adjacent numbers from a given list. It efficiently computes the maximum prize value by dynamic programming.
+
+This project showcases the implementation of a fundamental data structure, the CircularDeque, and demonstrates its practicality by solving real-world problems. It highlights the importance of data structures and algorithms in solving computational challenges efficiently.
